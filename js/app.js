@@ -1,1 +1,1 @@
-var app = angular.module('Hello', []);
+var app = angular.module('ConfigCenter', []);

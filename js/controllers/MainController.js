@@ -21,6 +21,7 @@ app.controller("MainController", function ($scope, $location, $http, $modal, $ti
     // 页面加载
     load();
     function load() {
+	alert(getCurrentUserNameUrl);
         // 取得当前用户名
         $http.get(getCurrentUserNameUrl).success(function (userName) {
             $scope.userName = userName;

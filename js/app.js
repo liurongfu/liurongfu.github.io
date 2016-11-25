@@ -1,1 +1,1 @@
-var app = angular.module('ConfigCenter', []);
+var app = angular.module('ConfigCenter', ['tm.pagination']);

@@ -15,7 +15,7 @@ angular.module('tm.pagination', []).directive('tmPagination',[function(){
             '<li ng-class="{disabled: conf.currentPage == conf.numberOfPages}" ng-click="nextPage()"><span>&raquo;</span></li>' +
             '</ul>' +
             '<div class="page-total" ng-show="conf.totalItems > 0">' +
-            '每页<select ng-model="conf.itemsPerPage" ng-options="option for option in conf.perPageOptions " ng-change="changeItemsPerPage()"></select>' +
+            /**'每页<select ng-model="conf.itemsPerPage" ng-options="option for option in conf.perPageOptions " ng-change="changeItemsPerPage()"></select>' +**/
             '/共<strong>{{ conf.totalItems }}</strong>条 '+
             /**'跳转至<input type="text" ng-model="jumpPageNum" ng-keyup="jumpPageKeyUp($event)"/>' +**/
             '</div>' +

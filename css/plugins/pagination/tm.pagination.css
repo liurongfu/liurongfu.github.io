@@ -1,5 +1,5 @@
 .page-list .pagination {
-    float: left;
+    float: center;
 }
 
 .page-list .pagination span {
@@ -17,7 +17,7 @@
 }
 
 .page-list .page-total {
-    float: left;
+    float: right;
     margin: 25px 20px;
 }
 

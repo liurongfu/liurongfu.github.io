@@ -83,42 +83,15 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>张三</td>
-                                <td>男</td>
-                                <td>23</td>
-                                <td>23</td>
-                                <td>23</td>
-                                <td>23</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>李四</td>
-                                <td>男</td>
-                                <td>27</td>
-                                <td>23</td>
-                                <td>23</td>
-                                <td>23</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>王麻子</td>
-                                <td>男</td>
-                                <td>65</td>
-                                <td>23</td>
-                                <td>23</td>
-                                <td>23</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>王麻子</td>
-                                <td>男</td>
-                                <td>65</td>
-                                <td>23</td>
-                                <td>23</td>
-                                <td>23</td>
-                            </tr>
+                            <tr ng-repeat="demoVo in demoVoList">
+                                <td>{{demoVo.userName}}</td>
+								<td>{{demoVo.password}}</td>
+								<td>{{demoVo.userName}}</td>
+								<td>{{demoVo.userName}}</td>
+								<td>{{demoVo.userName}}</td>
+								<td>{{demoVo.userName}}</td>
+								<td>{{demoVo.userName}}</td>
+                            </tr>                         
 
                             </tbody>
                             <tfoot>
